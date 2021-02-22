@@ -13,7 +13,7 @@
 - 3 kpl HC-SR04 ultraäänisensori (Echo ja Trikkaus)
 - 3 kpl akkuja (Jännite/kapasiteetti 12V/1,3Ah)
 - L298 H-silta moottoriohjainkortti (2A)
-- 4 kpl moottori (Jännite 12V)
+- 3 kpl moottori (Jännite 12V)
 
 ### Extra
 - Powerled
