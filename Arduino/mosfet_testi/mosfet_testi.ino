@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-const int motorpin = 5; //motorpin, duh
+const int motor1Pin = 5; //motorpin, duh
 //const int divider = 3;
-int motor_speed = 55; //motor speed
+int motorSpeed = 20; //motor speed
 const int Button = 3; //Arduino pin connected to button's pin
 
 int motorState = LOW; //current state of motor
@@ -16,13 +16,14 @@ unsigned long debounceDelay = 50; //the debounce time; increase if the output fl
 void setup()
 {
   Serial.begin(57600); //initialize serial
-  pinMode(motorpin, OUTPUT); //output
+  pinMode(motor1Pin, OUTPUT); //output
   pinMode(Button, INPUT_PULLUP); //intput w internal pullup resistor
-  digitalWrite(motorpin, motorState);
+  digitalWrite(motor1Pin, motorState);
+  analogWrite (motor1Pin, motorSpeed);
 }
 
 void loop() {
-
+  
   //read the state of the switch into a local variable
   int reading = digitalRead(Button);
 
@@ -52,7 +53,7 @@ void loop() {
     }
   }
   //set the motor:
-  digitalWrite(motorpin, motorState);
+  digitalWrite(motor1Pin, motorState);
   //save the reading; next time through the loop, it'll be the lastButtonState
   lastButtonState = reading;
 }
