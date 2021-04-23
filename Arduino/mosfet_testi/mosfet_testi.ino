@@ -19,11 +19,12 @@ void setup()
   pinMode(motor1Pin, OUTPUT); //output
   pinMode(Button, INPUT_PULLUP); //intput w internal pullup resistor
   digitalWrite(motor1Pin, motorState);
-  analogWrite (motor1Pin, motorSpeed);
+  //analogWrite (motor1Pin, motorSpeed);
 }
 
 void loop() {
-  
+
+  analogWrite(motor1Pin, motorSpeed);
   //read the state of the switch into a local variable
   int reading = digitalRead(Button);
 

@@ -26,9 +26,9 @@ void setup() {
  pinMode(in1Pin, OUTPUT);
  pinMode(in2Pin, OUTPUT);
  pinMode(enable1Pin, OUTPUT);
- pinMode(in3Pin, OUTPUT);
+/* pinMode(in3Pin, OUTPUT);
  pinMode(in4Pin, OUTPUT);
- pinMode(enable2Pin, OUTPUT);
+ pinMode(enable2Pin, OUTPUT);*/
 }
 void loop() {
  //int distanceR = 0;
@@ -38,22 +38,22 @@ void loop() {
 // moveForward();
    digitalWrite(in1Pin, HIGH);
   digitalWrite(in2Pin, LOW);
-  digitalWrite(in3Pin, HIGH);
-  digitalWrite(in4Pin, LOW);
+  //digitalWrite(in3Pin, HIGH);
+  //digitalWrite(in4Pin, LOW);
 }
 
 void moveStop(){
   digitalWrite(in1Pin, LOW);
   digitalWrite(in2Pin, LOW);
-  digitalWrite(in3Pin, LOW);
-  digitalWrite(in4Pin, LOW);
+  //digitalWrite(in3Pin, LOW);
+  //digitalWrite(in4Pin, LOW);
 }
 
 void moveForward(){
   digitalWrite(in1Pin, HIGH);
   digitalWrite(in2Pin, LOW);
-  digitalWrite(in3Pin, HIGH);
-  digitalWrite(in4Pin, LOW);
+  //digitalWrite(in3Pin, HIGH);
+  //digitalWrite(in4Pin, LOW);
 }
 
 /*void driveMotor(boolean dir, int spd) {
