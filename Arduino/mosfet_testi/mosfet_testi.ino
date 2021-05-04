@@ -1,9 +1,9 @@
-#include <stdio.h>
+  #include <stdio.h>
 #include <stdlib.h>
 
 const int motor1Pin = 5; //motorpin, duh
 //const int divider = 3;
-int motorSpeed = 20; //motor speed
+//int motorSpeed = 20; //motor speed
 const int Button = 3; //Arduino pin connected to button's pin
 
 int motorState = LOW; //current state of motor
@@ -24,7 +24,7 @@ void setup()
 
 void loop() {
 
-  analogWrite(motor1Pin, motorSpeed);
+  //analogWrite(motor1Pin, motorSpeed);
   //read the state of the switch into a local variable
   int reading = digitalRead(Button);
 
