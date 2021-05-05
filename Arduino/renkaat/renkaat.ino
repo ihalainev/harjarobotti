@@ -1,48 +1,30 @@
-int EN1 = 13;
-int IN1 = 12;
-int IN2 = 11;
+int motor1pin1 = 12;
+int motor1pin2 = 11;
 
-void setup(){
-  Serial.begin(9600);
-  pinMode(EN1, OUTPUT);
-  pinMode(IN1, OUTPUT);
-  pinMode(IN2, OUTPUT);
-  
+int motor2pin1 = 4;
+int motor2pin2 = 5;
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(motor1pin1, OUTPUT);
+  pinMode(motor1pin2, OUTPUT);
+  pinMode(motor2pin1, OUTPUT);
+  pinMode(motor2pin2, OUTPUT);
 }
-void loop(){
-  moveForward();
+
+void loop() {
+  // put your main code here, to run repeatedly:   
+  digitalWrite(motor1pin1, HIGH);
+  digitalWrite(motor1pin2, LOW);
+
+  digitalWrite(motor2pin1, HIGH);
+  digitalWrite(motor2pin2, LOW);
   delay(1000);
-  moveStop();
+
+  digitalWrite(motor1pin1, LOW);
+  digitalWrite(motor1pin2, HIGH);
+
+  digitalWrite(motor2pin1, LOW);
+  digitalWrite(motor2pin2, HIGH);
   delay(1000);
-  moveBackward();
-  delay(1000);
-  turnLeft();
-  delay(1000);
-  turnRight();
-  delay(1000);
-}
-
-void moveForward(){
-  digitalWrite(IN1, HIGH);
-  digitalWrite(IN2, LOW);
-}
-
-void moveStop(){
-  digitalWrite(IN1, LOW);
-  digitalWrite(IN2, LOW);
-}
-
-void moveBackward(){
-  digitalWrite(IN1, LOW);
-  digitalWrite(IN2, HIGH);
-}
-
-void turnLeft(){
-  digitalWrite(IN1, LOW);
-  digitalWrite(IN2, HIGH);
-}
-
-void turnRight(){
-  digitalWrite(IN1, HIGH);
-  digitalWrite(IN2, LOW);
 }
