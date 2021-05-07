@@ -1,9 +1,7 @@
-  #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 const int motor1Pin = 5; //motorpin, duh
-//const int divider = 3;
-//int motorSpeed = 20; //motor speed
 const int Button = 3; //Arduino pin connected to button's pin
 
 int motorState = LOW; //current state of motor
@@ -19,7 +17,6 @@ void setup()
   pinMode(motor1Pin, OUTPUT); //output
   pinMode(Button, INPUT_PULLUP); //intput w internal pullup resistor
   digitalWrite(motor1Pin, motorState);
-  //analogWrite (motor1Pin, motorSpeed);
 }
 
 void loop() {
