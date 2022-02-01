@@ -1,4 +1,4 @@
-# Harjauskonerobotti
+# Harjarobotti
 
 ## Software
 ### Tavoitteet
