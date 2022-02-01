@@ -6,7 +6,7 @@
 - Liikkuminen tapahtuu kahden moottorin avulla, jotka pyörittävät renkaita molempiin suuntiin
 - Harjojen pyörityksen moottori käynnistyy ja sammuu omasta napista (mobiili vai fyysinen)
 - Kone löytää oman latauspisteensä tilassa (ei ajankohtainen)
-- Arduinon käyttö tapahtuisi mobiililaitteen avulla (TOIVE)
+- Arduinon käyttö tapahtuisi mobiililaitteen avulla (TOIVE) -> pohja mobiiliohjelmoinnin projektista, jossa applikaatio ottaa yhteyden arduinoon. 
 - ```Toimeksiantaja toivoi Arduinoa, tosin myöskään Rasberry Pi ei ole täysin poiskaan suljettu.```
 
 ### Liitynnät
