@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-01T11:59:52.847Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="aZhGDo9mYt-K1w490pmq" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-01T12:02:05.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="pm5z-IX-O6poHwcB2iuQ" version="16.5.2" type="github">
   <diagram id="oQeZkwXzfm3SIni4WCjP" name="Page-1">
     <mxGraphModel dx="580" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,8 +78,8 @@
         <mxCell id="3fbxxqJMh8eJSi5g2v8n-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="3fbxxqJMh8eJSi5g2v8n-10" target="3fbxxqJMh8eJSi5g2v8n-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3fbxxqJMh8eJSi5g2v8n-10" value="Toimeksiantajan toiveet" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="230" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="3fbxxqJMh8eJSi5g2v8n-10" value="&lt;font style=&quot;font-size: 11px&quot;&gt;Toimeksiantajan toiveet robottia varten (lista githubissa)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="231" y="270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
