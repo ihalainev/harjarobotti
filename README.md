@@ -15,7 +15,7 @@
 - L298 H-silta moottoriohjainkortti (2A) Linkin takaa löytyvä [esteitä väistelevä "auto"](https://www.youtube.com/watch?v=1n_KjpMfVT0&t=178s&ab_channel=DIYBuilder) on erittäin hyvä pienempi malli harjauskonerobotista. Laitteessa käytetään L293d H-siltaa.
 ^ L298N ohjainkorttia tulee kokeilla renkaiden kanssa, mikäli ei toimi käytetään renkaiden ohjauksessa mosfettia 
 - IRFZ24 N-channel mosfet harjoille <- ei käytetä(?)
-- PSMN1R8-30PL N-channel mosfet harjoille (sekä renkaille(?)) <- tätä tullaan todennäköisesti käyttämään
+- Farnell PSMN1R8-30PL N-channel mosfet harjoille (sekä renkaille(?)) <- tätä tullaan todennäköisesti käyttämään
 
 - 3 kpl moottori (Jännite 12V, 900 rpm)
 - 2 kpl Arduino UNO
